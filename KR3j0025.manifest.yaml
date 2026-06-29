@@ -1,0 +1,65 @@
+canonical_identifier: bkk:krp/KR3j0025/v1
+canonical_location: https://kanripo.org/bkk/KR3j0025/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 古今註三卷附校記三卷
+  identifiers:
+    krp: KR3j0025
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR3j
+  source:
+    repository: tls-texts
+    path: data/tls/KR3j0025.xml
+  edition:
+    short: bkk
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+- short: krp
+assets:
+  parts:
+  - {seq: 1, filename: KR3j0025_001.yaml, hash: 'sha256:d2157880d129d362eaa61e8f89420e2aaf0b3f3967e6988657aa4634a5f3f5f0'}
+  - {seq: 2, filename: KR3j0025_002.yaml, hash: 'sha256:41a29f2d77500ac0d510e7df831a27adec913d7a5de2c76c22007c7c655e35d2'}
+  - {seq: 3, filename: KR3j0025_003.yaml, hash: 'sha256:1f5fc5599ba99c9da9a0a950419b4e93efac1878542b239ab59ca90c0f4ae583'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3j0025_001.markers.yaml, hash: 'sha256:a5e9c870c37d471f249401bd581d5cac736796124938b0351cbd5c171358c464'}
+  - {seq: 2, role: markers, filename: assets/KR3j0025_002.markers.yaml, hash: 'sha256:a3f9a0148a664c9d875b289d8699bade699ffa9acba4b59072d0727fbf79dbb5'}
+  - {seq: 3, role: markers, filename: assets/KR3j0025_003.markers.yaml, hash: 'sha256:d6d4ad83509aa013093a857274ce26aa517aa66b238f708ef44a73aff99e4353'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3j0025_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2678
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3j0025_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 2520
+  label: 卷中
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3j0025_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 2262
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:bf81b2b80c5b3e889654d53315991f95aea74b7dd9289ed286412f4eeaeec74b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

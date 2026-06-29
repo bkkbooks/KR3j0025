@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3j0025/krp/v1
+canonical_location: https://kanripo.org/bkk/KR3j0025/krp/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 古今註
+  date: '2015-09-12 00:49:53.137786'
+  source:
+    repository: kanripo
+    path: KR3j0025
+  base_edition: SBCK
+  edition:
+    short: krp
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR3j0025_000-krp.yaml, hash: 'sha256:917d96f21c8de8d669e67966de823e47d3714634dcaa6aa0c1a3322f29e67e50'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3j0025_000-krp.markers.yaml, hash: 'sha256:8688c008f043513b76cc58c94ab28e38ae93339505e3925c1463d2b815c80d81'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3j0025_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 7786
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0f154cd09961fd7b740d035c0ba1411495f05ff97e58caa23d9d12196640e6a1
